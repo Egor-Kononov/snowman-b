@@ -23,25 +23,81 @@ Base --> 1 Buttons  :  2 Feet " " 3 Flat ___ 4 None
 
 int main(){
     cout<< ariel::snowman(11111111)<<endl;
+    /*
+    _===_
+    (.,.)
+   <( : )>
+    ( : )
+    */
 
     cout<< ariel::snowman(44444444)<<endl;
-
+    /*
+      ___
+     (_*_)
+     (- -)
+     (   )
+     (   )
+    */
     cout<< ariel::snowman(12344321)<<endl;
-
+    /*
+    _===_
+    (O.-)
+    (] [)\
+    ( : )
+    */
     cout<< ariel::snowman(12124343)<<endl;
-
+   /*
+     _===_
+     (..o)
+     (   )\
+     (___)
+    */
     cout<< ariel::snowman(22222222)<<endl;
-
+    /*
+     ___
+    .....
+   \(o.o)/
+    (] [)
+    (" ")
+    */
     cout<< ariel::snowman(33333333)<<endl;
-
+    /*
+       _
+      /_\
+     (O_O)
+    /(> <)\
+     (___)
+    */
     cout<< ariel::snowman(12343434)<<endl;
-
+    /*
+     _===_
+     (O.-)
+    /(> <)
+     (   )
+    */
     cout<< ariel::snowman(23232111)<<endl;
-
+    /*
+      ___
+     .....
+    \(o_O)
+     ( : )>
+     ( : )
+    */
     cout<< ariel::snowman(43211234)<<endl;
-
+    /*
+      ___
+     (_*_)
+     (o_.)/
+    <(> <)
+     (   )
+    */
     cout<< ariel::snowman(12312431)<<endl;
-
+    /*
+     _===_
+    \(O..)
+     (> <)
+     ( : )
+    */
 
     try {
 		cout << ariel::snowman(5) << endl;   
